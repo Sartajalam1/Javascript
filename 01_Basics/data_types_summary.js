@@ -30,3 +30,28 @@
  }
 
  console.log(typeof(myFunction));
+
+// https://tc39.es/ecma262/  // check website For javascript......
+
+/*****************************************************************/
+
+// stack (primitive), Heap (Non-primitive)
+
+let myWebsite = "sartajalam"
+let anothername = myWebsite;
+
+anothername = "sagarkhan"
+
+console.log(myWebsite)
+console.log(anothername)
+
+let userOne = {
+   email:"user@youtubecom",
+   upi: "user@ybl"
+}
+
+let userTwo = userOne
+userTwo.email = "sartaj62@gmail.com"
+
+console.log(userOne.email)
+console.log(userTwo.email);
