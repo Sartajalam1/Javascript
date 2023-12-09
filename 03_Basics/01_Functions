@@ -1,0 +1,71 @@
+function sayMyName(){
+    console.log("S")
+    console.log("A")
+    console.log("R")
+    console.log("T")
+    console.log("A")
+    console.log("J")
+}
+// sayMyName()
+
+//  2nd Function Declare 
+// function addTowNumbers(number1,number2){
+//     number1 + number2
+//     console.log(number1+number2)
+// }
+// addTowNumbers(1,6)
+ 
+// 3rd Function Declare 
+// function addTowNumbers(number1,number2){
+//    let result =  number1 + number2
+//    console.log("sartaj")
+//     return result
+// // return number1+number2
+   
+// }
+//  const result = addTowNumbers(1,6)
+//  console.log("Result: ", result)
+
+// 4th function Declare
+// function loginUserMessage(username){
+//     if(username === undefined){
+//         console.log("Please entre a username");
+//         return
+//     }
+//     return `${username} just logged in`
+
+// }
+// // console.log(loginUserMessage("sartaj"));
+// console.log(loginUserMessage())
+
+ 
+/************* function 2nd lecture start ************/
+// Function me object pass 
+function calculateCartPrice(val1,val2,...num1){
+   return num1
+}
+console.log(calculateCartPrice(200, 400, 600,800));
+
+const user = {
+    username: "sartaj",
+    price:199
+}
+function handleObject(anyobject){
+console.log(`username is ${anyobject.username} and price is ${anyobject.price}`)
+
+}
+// handleObject(user) // is tarah se bhi object function me pass kar sakte hai
+// ye bhi ek tarika hai object pass karne ka,
+handleObject({
+    username: "sam",
+    price:399
+})
+
+// Function me Array pass
+const myNewArray = [200,400,100,600]
+
+function returnSecondValue(getArray){
+    return getArray[1];
+}
+// console.log(returnSecondValue(myNewArray))
+console.log(returnSecondValue([100,700,900,999]))
